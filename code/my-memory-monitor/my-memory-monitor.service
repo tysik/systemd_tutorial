@@ -1,0 +1,5 @@
+[Unit]
+Description=My Memory Monitor
+
+[Service]
+ExecStart=/usr/local/bin/my-memory-monitor.sh

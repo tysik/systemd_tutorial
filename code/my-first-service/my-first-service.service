@@ -1,0 +1,10 @@
+[Unit]
+Description=My First Service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/bin/my-first-service.sh
+
+[Install]
+WantedBy=default.target

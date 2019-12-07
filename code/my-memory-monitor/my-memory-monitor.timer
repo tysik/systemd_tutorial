@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer for My Memory Monitor (once every minute)
+
+[Timer]
+OnActiveSec=0 seconds
+OnUnitActiveSec=1 minute
+
+[Install]
+WantedBy=timers.target

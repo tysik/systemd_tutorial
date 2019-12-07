@@ -1,0 +1,8 @@
+[Unit]
+Description=Socket for My Logger
+
+[Socket]
+ListenFIFO=/tmp/my-logger.fifo
+
+[Install]
+WantedBy=sockets.target

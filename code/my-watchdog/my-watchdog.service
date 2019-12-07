@@ -1,0 +1,7 @@
+[Unit]
+Description=My Watchdog
+
+[Service]
+Type=notify
+WatchdogSec=10s
+ExecStart=/usr/local/bin/test-watchdog
